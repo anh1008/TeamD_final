@@ -51,14 +51,14 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">首頁</a></li>
-                        <li><a runat="server" href="~/About">關於</a></li>
-                        <li><a runat="server" href="~/Contact">連絡人</a></li>
-                        <li><a runat="server" href="~/Categories/">分類</a></li>
-                        <li><a runat="server" href="~/Edit Transaction/">編輯交易</a></li>
-                        <li><a runat="server" href="~/Edit Products/">編輯產品</a></li>
-                         <li><a runat="server" href="~/Edit Users/">編輯用戶</a></li>
-                         <li><a runat="server" href="~/Search/">搜尋商品</a></li>
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Categories/">Categories</a></li>
+                        <li><a runat="server" href="~/Edit Transaction/">Edit transaction</a></li>
+                        <li><a runat="server" href="~/Edit Products/">Edit Products</a></li>
+                         <li><a runat="server" href="~/Edit Users/">Edit Users</a></li>
+                         <li><a runat="server" href="~/Search/">Search</a></li>
                     </ul>
                 </div>
             </div>
