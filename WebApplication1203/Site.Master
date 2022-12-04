@@ -54,11 +54,13 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/Categories/">Categories</a></li>
-                        <li><a runat="server" href="~/Edit Transaction/">Edit transaction</a></li>
-                        <li><a runat="server" href="~/Edit Products/">Edit Products</a></li>
-                         <li><a runat="server" href="~/Edit Users/">Edit Users</a></li>
-                         <li><a runat="server" href="~/Search/">Search</a></li>
+                        <li><a runat="server" href="~/Categories">Categories</a></li>
+                        <li><a runat="server" href="~/Products/list">ProductList</a></li>
+                        <li><a runat="server" href="~/Trans/Edit">Edit transaction</a></li>
+                        <li><a runat="server" href="~/Products/Edit">Edit Products</a></li>
+                         <li><a runat="server" href="~/Users/Edit">Edit Users</a></li>
+                         <li><a runat="server" href="~/Products/Search">Search</a></li>
+                        <li><a runat="server" href="~/Trans/History">Order History</a></li>
                     </ul>
                 </div>
             </div>
