@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - 我的 ASP.NET 應用程式</title>
+    <title><%: Page.Title %> -Ace Flicker Bookstore</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">應用程式名稱</a>
+                    <a class="navbar-brand" runat="server" href="~/">Ace Flicker Bookstore</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -68,7 +68,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - 我的 ASP.NET 應用程式</p>
+                <p>&copy; <%: DateTime.Now.Year %> - TeamD 2022</p>
             </footer>
         </div>
 
