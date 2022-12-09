@@ -156,6 +156,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Search\search_1.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Trans\Edit.aspx" />
     <Content Include="Trans\History.aspx" />
@@ -214,6 +215,13 @@
       <DependentUpon>list.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\search_1.aspx.cs">
+      <DependentUpon>search_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\search_1.aspx.designer.cs">
+      <DependentUpon>search_1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -259,7 +267,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Search\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

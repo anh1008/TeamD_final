@@ -59,7 +59,7 @@
                         <li><a runat="server" href="~/Trans/Edit">Edit transaction</a></li>
                         <li><a runat="server" href="~/Products/Edit">Edit Products</a></li>
                          <li><a runat="server" href="~/Users/Edit">Edit Users</a></li>
-                         <li><a runat="server" href="~/Products/Search">Search</a></li>
+                         <li><a runat="server" href="~/Search/search_1">Search</a></li>
                         <li><a runat="server" href="~/Trans/History">Order History</a></li>
                     </ul>
                 </div>
