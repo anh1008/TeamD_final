@@ -39,7 +39,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:peru">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,20 +47,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Ace Flicker Bookstore</a>
+                    <a class="navbar-brand" runat="server" href="~/" style="color:yellow;"><strong>Ace Flicker Bookstore</strong></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/Categories">Categories</a></li>
-                        <li><a runat="server" href="~/Products/list">ProductList</a></li>
-                        <li><a runat="server" href="~/Trans/Edit">Edit transaction</a></li>
-                        <li><a runat="server" href="~/Products/Edit">Edit Products</a></li>
-                         <li><a runat="server" href="~/Users/Edit">Edit Users</a></li>
-                         <li><a runat="server" href="~/Search/search_1">Search</a></li>
-                        <li><a runat="server" href="~/Trans/History">Order History</a></li>
+                        <li><a runat="server" href="~/" style="color:snow">Home</a></li>
+                        <li><a runat="server" href="~/About" style="color:snow">About</a></li>
+                        <li><a runat="server" href="~/Contact" style="color:snow">Contact</a></li>
+                        <li><a runat="server" href="~/Categories" style="color:snow">Categories</a></li>
+                        <li><a runat="server" href="~/Products/list" style="color:snow">ProductList</a></li>
+                        <li><a runat="server" href="~/Trans/Edit" style="color:snow">Edit transaction</a></li>
+                        <li><a runat="server" href="~/Products/Edit" style="color:snow">Edit Products</a></li>
+                         <li><a runat="server" href="~/Users/Edit" style="color:snow">Edit Users</a></li>
+                         <li><a runat="server" href="~/Search/search_1" style="color:snow">Search</a></li>
+                        <li><a runat="server" href="~/Trans/History" style="color:snow">Order History</a></li>
+                        <img src="軟工-登入.jpg" alt="sign_in" width="55" height="55" style="position: fixed; top: 20; right:0">
                     </ul>
                 </div>
             </div>
@@ -68,7 +69,9 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
+            <hr/>
+            <img src="軟工-書櫃.jpg" alt="bookshelf" width="1170" height="150" position: fixed; bottom: 0;>
+           
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - TeamD 2022</p>
             </footer>
