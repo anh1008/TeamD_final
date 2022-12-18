@@ -61,7 +61,7 @@
                          <li><a runat="server" href="~/Users/Edit" style="color:snow">Edit Users</a></li>
                          <li><a runat="server" href="~/Search/search_1" style="color:snow">Search</a></li>
                         <li><a runat="server" href="~/Trans/History" style="color:snow">Order History</a></li>
-                        <img src="軟工-登入.jpg" alt="sign_in" width="55" height="55" style="position: fixed; top: 20; right:0">
+                        <a href="https://localhost:44345/login"><img src="軟工-登入.jpg" alt="sign_in" width="55" height="55" style="position: fixed; top: 20; right:0"></a>
                     </ul>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr/>
-            <img src="軟工-書櫃.jpg" alt="bookshelf" width="1170" height="150" position: fixed; bottom: 0;>
+            <img src="軟工-書櫃.jpg" alt="bookshelf" width="1170" height="150" style="bottom: 0;">
            
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - TeamD 2022</p>

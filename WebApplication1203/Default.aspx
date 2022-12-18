@@ -12,10 +12,10 @@
     
     <div class="row">
         <div class="col-md-4">
-            <h3 style="color:orangered"><font face="monospace"><strong>Highest Score</strong></font></h3>
+            <h3 style="color:orangered"><font face="monospace"><strong>Highest Rating</strong></font></h3>
            <img src="https://www.calcchat.com/images/book_covers/calc10e.jpg" alt="book1" width="150" height="200">
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948"  style="background-color:orange; border-radius:5px;border:0px">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://localhost:44345/Products/book1"  style="background-color:orange; border-radius:5px;border:0px">Learn more &raquo;</a>
             </p>
         </div>
          <div class="col-md-4">
